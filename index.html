@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="/assets/logo.png">
+    <script src="validasi.js"></script>
+</head>
+<body>
+    <nav id="nav-combination">
+        <section id="navbar">
+            <a href="#">order status</a>
+            <p>|</p>
+            <a href="#" class="active">newsletter signup</a>
+            <p>|</p>
+            <a href="#">creators club</a>
+            <a href="#">login &nbsp<i class="fa fa-user"></i></a>
+        </section>
+    
+        <section id="navbar-main">
+
+            <img src="/assets/logo.png" alt="logo-adidas">
+    
+            <div class="nav-links">
+                <a href="#" style="font-weight: 700;">MEN</a>
+                <a href="#" style="font-weight: 700;">WOMEN</a>
+                <a href="#" style="font-weight: 700;">KIDS</a>
+                <a href="#" style="font-weight: 400;">SPORTS</a>
+                <a href="#" style="font-weight: 400;">BRANDS</a>
+                <a href="#" style="font-weight: 400;">RELEASE DATES</a>
+            </div>
+    
+            <div class="nav-search">
+                <div class="nav-search-2">
+                    <input type="text" id="search" placeholder="search" value="">
+                </div>
+    
+                <div class="nav-bag">
+                    <i class="fa fa-shopping-bag"></i>
+                </div>
+            </div>
+        </section>
+    </nav>
+
+
+    <section id="main-page">
+        <div class="main-page-2">
+        <span class="main-left">
+            <h1>LEGAL & PRIVACY</h1>
+            <a href="#">Contact Us</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Delivery Teams</a>
+            <a href="#">Terms and Conditions for <br>website use</a>
+            <a href="#">Imprint</a>
+
+            <h1>SUPPORT</h1>
+            <a href="#">adidas Product</a>
+            <a href="#">Ordering</a>
+            <a href="#">Payment</a>
+            <a href="#">Shipping</a>
+            <a href="#">Returning</a>
+            <a href="#">Using our Site</a>
+            <a href="#">Online Shop Support</a>
+
+            <h1>ADIDAS STORE LOCATIONS</h1>
+            <a href="#">Malaysia</a>
+        </span>
+        <span class="main-contact-us">
+            <h1>CUSTOMER SERVICE</h1>
+            <p>We aim to respond to your inquiries within 2-4 business days.</p>
+            <form onsubmit="return validasi()">
+                <div class="form-detail">
+                    <div class="positioning1">
+                        <div class="first-name">
+                            <label for="first-name">FIRST NAME *</label>
+                            <input type="text" name="name" id="f-name">
+                        </div>
+
+                        <div class="last-name">
+                            <label for="last-name">LAST NAME *</label>
+                            <input type="text" name="name" id="l-name">
+                        </div>
+                    </div>
+
+                    <div class="positioning2">
+                        <div class="email-address">
+                            <label for="email-address">EMAIL ADDRESS *</label>
+                            <input type="text" name="email" id="e-address">
+                        </div>
+
+                        <div class="phone-number">
+                            <label for="phone-number">PHONE NUMBER *</label>
+                            <input type="text" name="number" id="p-number">
+                        </div>
+                    </div>
+
+                    <div class="positioning3">
+                        <div class="reason">
+                            <label for="reason">REASON *</label>
+                            <select name="reason" id="reasons">
+                                <option text="" value="" id="" selected disabled>--None--</option>
+                                <option text="Jakarta" id="Jakarta" value="Jakarta">Apps & Website</option>
+                                <option text="London" id="London" value="London">Company Information</option>
+                                <option text="Madrid" id="Madrid" value="Madrid">Customer Feedback</option>
+                                <option text="Toronto" id="Toronto" value="Toronto">Existing Member</option>
+                                <option text="Hamburg" id="Hamburg" value="Hamburg">Membership</option>
+                                <option text="Copenhagen" id="Copenhagen" value="Copenhagen">Newsletter</option>
+                                <option text="Los Angeles" id="Los Angeles" value="Los Angeles">Payment</option>
+                                <option text="Manchester" id="Manchester" value="Manchester">Product Information</option>
+                                <option text="Paris" id="Paris" value="Paris">Returns & Refunds</option>
+                                <option text="Others" id="Others" value="Others">Spam/No Contact</option>
+                                <option text="Others" id="Others" value="Others">Support on Ordering</option>
+                                <option text="Others" id="Others" value="Others">Vouchers & Gift cards</option>
+                                <option text="Others" id="Others" value="Others">Withdrawal Forms</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="positioning4">
+                        <div class="order-number">
+                            <label for="order-number">ORDER NUMBER</label>
+                            <input type="text" name="order" id="order-number">
+                        </div>
+                    </div>
+
+                    <div class="positioning5">
+                        <div class="subject">
+                            <label for="subject">SUBJECT *</label>
+                            <input type="text" name="subject" id="subjects">
+                        </div>
+                    </div>
+
+                    <div class="positioning6">
+                        <div class="question">
+                            <label for="subject">QUESTION *</label>
+                            <textarea name="question" id="question" cols="30" rows="15"></textarea>
+                            <p>(Maximum characters: 1000) You have  1000 Characters left.</p>
+                        </div>
+                    </div>
+
+                    <div class="positioning7">
+                        <div class="reason">
+                            <label for="reason">HOW DO YOU PREFER TO BE CONTACTED?</label>
+                            <select name="reason" id="contacted">
+                                <option text="" value="" id="">--None--</option>
+                                <option text="a" id="a" value="Jakarta">Phone</option>
+                                <option text="b" id="b" value="London">Email</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="positioning8">
+                        <div class="attach">
+                            <label for="attach">ATTACH DOCUMENTS</label>
+                            <input type="file" name="file" id="files" multiple>
+                        </div>
+                        <p>[Maximum 5 Attachments With Limit of 10 MB]</p>
+                    </div>
+
+                    <div class="positioning9">
+                        <div class="captcha">
+                            <h1>THIS IS CAPTCHA</h1>
+                        </div>
+                    </div>
+
+                    <div class="submit">
+                        <button class="button" type="submit" onclick="return validasi()">SEND <i class="fa fa-chevron-circle-right"></i></button>
+                    </div>
+
+                </div>
+            </div>
+            </form>
+            
+        </span>
+    </section>
+
+
+    <section id="reg-email">
+            <h1>REGISTER YOUR EMAIL FOR NEWS AND <br>SPECIAL OFFERS</h1>
+            <div class="input-reg-email">
+                <form onsubmit="return validasi2()">
+                    <input type="text" name="reg-email" id="email2" placeholder="YOUR EMAIL ADDRESS">
+                    <button type="submit" onclick="return validasi2()"><i class="fa fa-chevron-circle-right"></i></button>
+                </form>
+            </div>
+    </section>
+
+    <section id="details-bottom">
+        <div class="details-bottom-positioning">
+            <div class="products">
+                <h1>PRODUCTS</h1>
+                <a href="#" style="padding-top: 1rem;">Shoes</a>
+                <a href="#">Apparel</a>
+                <a href="#">Accessories</a>
+                <a href="#">New arrivals</a>
+                <a href="#">Release Dates</a>
+                <a href="#" style="padding-top: .7rem;">Top Sellers</a>
+                <a href="#">adidas Exclusive</a>
+                <a href="#">Outlet</a>
+            </div>
+
+            <div class="sports">
+                <h1>SPORTS</h1>
+                <a href="#" style="padding-top: 1rem;">Running</a>
+                <a href="#">Golf</a>
+                <a href="#">Gym & Training</a>
+                <a href="#">Football</a>
+                <a href="#">Basketball</a>
+                <a href="#">Tennis</a>
+                <a href="#">Outdoor</a>
+                <a href="#">Swimming</a>
+                <a href="#">Cycling</a>
+            </div>
+
+            <div class="collections">
+                <h1>COLLECTIONS</h1>
+                <a href="#" style="padding-top: 1rem;">IVY PARK</a>
+                <a href="#">Pharrell Williams</a>
+                <a href="#">Ultraboost</a>
+                <a href="#">Pureboost</a>
+                <a href="#">Predator</a>
+                <a href="#">X</a>
+                <a href="#">Copa</a>
+                <a href="#">Nemeziz</a>
+                <a href="#">Continental 80</a>
+                <a href="#">Superstar</a>
+                <a href="#">Stan Smith</a>
+                <a href="#">nmd</a>
+                <a href="#">ZX</a>
+            </div>
+
+            <div class="company-info">
+                <h1>COMPANY INFO</h1>
+                <a href="#" style="padding-top: 1rem;">About Us</a>
+                <a href="#">Careers</a>
+                <a href="#">Press</a>
+
+                <h2 style="padding-top: 1rem">SUPPORT</h2>
+                <a href="#" style="padding-top: .5rem">Help & Customer Service</a>
+                <a href="#">Store finder</a>
+                <a href="#">Size Chart</a>
+                <a href="#">Payment</a>
+                <a href="#">Delivery</a>
+                <a href="#">Returns&Refunds</a>
+                <a href="#">Promotions</a>
+                <a href="#">Sitemap</a>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="footer">
+        <div class="footer-positioning">
+
+            <h1><i class="fa fa-flag"></i> country</h1>
+
+            <div class="footer-links">
+                <p>|</p>
+                <a href="#">Privacy Policy</a>
+                <p>|</p>
+                <a href="#">Terms and Conditions</a>
+                <p>|</p>
+                <a href="#">Imprint</a>
+                <p>|</p>
+                <p>&#169; 2020 adidas Malaysia Sdn Bhd</p>
+            </div>
+        </div>
+    </section>
+    
+
+    
+</body>
+</html>
