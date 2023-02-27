@@ -97,6 +97,14 @@ function validasi(){
     return true
 }
 
+function validasi3(){
+    let a = " Characters left"
+    var y = document.getElementById("question").value.length;
+    document.getElementById("demo").innerHTML = "(Maximum characters: 1000) You have " + (1000-y) + a;
+
+    
+}
+
 
 function validasi2(){
 
