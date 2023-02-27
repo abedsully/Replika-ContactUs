@@ -88,6 +88,11 @@ function validasi(){
         return false
     }
 
+    if(question.length > 1000){
+        alert("Question can not contain more than 1000 characters")
+        return false
+    }
+
     if(contacted.value == ""){
         alert("Please choose how you prefer to be contacted!")    
         return false
