@@ -104,8 +104,18 @@ function validasi(){
 
 function validasi3(){
     let a = " Characters left"
+
+    var b = document.getElementById("question").value.length;
     var y = document.getElementById("question").value.length;
-    document.getElementById("demo").innerHTML = "(Maximum characters: 1000) You have " + (1000-y) + a;
+    while(b>1000){
+        b = 1000;
+    }
+    document.getElementById("demo").innerHTML = "(Maximum characters: 1000) You have " + (1000-b) + a;
+
+    if(y>1000){
+        alert("Message can't be more than 1000 characters!")
+        return false
+    }
 
     
 }
